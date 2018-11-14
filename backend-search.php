@@ -40,6 +40,7 @@ if(isset($_REQUEST["term"])){
     // Close statement
     mysqli_stmt_close($stmt);
 }
+
  
 // close connection
 mysqli_close($link);
